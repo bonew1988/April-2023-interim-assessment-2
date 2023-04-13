@@ -1,0 +1,299 @@
+Windows PowerShell
+(C) Корпорация Майкрософт (Microsoft Corporation). Все права защищены.
+
+Установите последнюю версию PowerShell для новых функций и улучшения! https://aka.ms/PSWindows
+
+PS C:\Users\bonew> ssh bonew@192.168.95.60
+ssh: connect to host 192.168.95.60 port 22: Connection refused
+PS C:\Users\bonew> ssh bonew@192.168.95.60
+The authenticity of host '192.168.95.60 (192.168.95.60)' can't be established.
+ED25519 key fingerprint is SHA256:TQsWjCEnnmjZVlkHLpUKoq2wawfuten0ku8yRCZuXGw.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added '192.168.95.60' (ED25519) to the list of known hosts.
+bonew@192.168.95.60's password:
+Welcome to Ubuntu 22.10 (GNU/Linux 5.19.0-38-generic x86_64)
+
+ * Documentation:  https://help.ubuntu.com
+ * Management:     https://landscape.canonical.com
+ * Support:        https://ubuntu.com/advantage
+
+6 обновлений может быть применено немедленно.
+5 из этих обновлений, являются стандартными обновлениями безопасности.
+Чтобы просмотреть дополнительные обновления выполните: apt list --upgradable
+
+
+The programs included with the Ubuntu system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Ubuntu comes with ABSOLUTELY NO WARRANTY, to the extent permitted by
+applicable law.
+
+bonew@GB-virtual-machine:~$ pws
+Команда «pws» не найдена. Возможно, вы имели в виду:
+  command 'aws' from snap aws-cli (1.15.58)
+  command 'pwd' from deb coreutils (8.32-4.1ubuntu1)
+  command 'pcs' from deb pcs (0.10.11-2ubuntu3)
+  command 'pvs' from deb lvm2 (2.03.11-2.1ubuntu4)
+  command 'psw' from deb wise (2.4.1-23)
+  command 'ps' from deb procps (2:3.3.17-6ubuntu2)
+  command 'rpws' from deb ratpoison (1.4.9-1)
+  command 'aws' from deb awscli (1.24.8-1)
+  command 'pms' from deb pms (0.42-1build4)
+  command 'pts' from deb openafs-client (1.8.8.1-3)
+  command 'pps' from deb libpmix-bin (4.1.2-2ubuntu1)
+See 'snap info <snapname>' for additional versions.
+bonew@GB-virtual-machine:~$ pwd
+/home/bonew
+bonew@GB-virtual-machine:~$ ll
+итого 124
+drwxr-x--- 22 bonew bonew 4096 апр 13 22:46  ./
+drwxr-xr-x  3 root  root  4096 янв 23 20:32  ../
+drwxrwxr-x  2 bonew bonew 4096 фев 10 20:59  .android/
+-rw-------  1 bonew bonew 4006 апр 13 22:57  .bash_history
+-rw-r--r--  1 bonew bonew  220 янв 23 20:32  .bash_logout
+-rw-r--r--  1 bonew bonew 3846 апр  9 22:23  .bashrc
+drwx------ 34 bonew bonew 4096 апр 13 23:00  .cache/
+drwx------ 22 bonew bonew 4096 апр  9 22:20  .config/
+drwxrwxr-x  3 bonew bonew 4096 фев 10 21:03  .dotnet/
+-rw-rw-r--  1 bonew bonew   45 янв 23 20:46  .gitconfig
+drwx------  2 bonew bonew 4096 апр 13 22:59  .gnupg/
+-rw-rw-r--  1 bonew bonew   70 апр 13 22:39  init-file.txt
+drwxrwxr-x  4 bonew bonew 4096 фев 10 20:59  .java/
+-rw-------  1 bonew bonew   20 мар  9 01:00  .lesshst
+drwx------  6 bonew bonew 4096 янв 23 20:44  .local/
+drwx------  3 bonew bonew 4096 апр 13 22:46  .mysql/
+-rw-------  1 bonew bonew   22 апр 13 22:43  .mysql_history
+drwx------  3 bonew bonew 4096 янв 23 20:39  .pki/
+-rw-r--r--  1 bonew bonew  807 янв 23 20:32  .profile
+-rw-rw-r--  1 bonew bonew   66 апр  9 22:20  .selected_editor
+drwx------  6 bonew bonew 4096 фев 10 20:59  snap/
+drwx------  2 bonew bonew 4096 янв 23 20:35  .ssh/
+-rw-r--r--  1 bonew bonew    0 янв 23 20:35  .sudo_as_admin_successful
+drwxrwxr-x  3 bonew bonew 4096 янв 23 20:39  .vscode/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:34  Видео/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:34  Документы/
+drwxr-xr-x  2 bonew bonew 4096 апр 13 22:44  Загрузки/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:57  Изображения/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:34  Музыка/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:34  Общедоступные/
+drwxr-xr-x  6 bonew bonew 4096 апр 13 22:57 'Рабочий стол'/
+drwxr-xr-x  2 bonew bonew 4096 янв 23 20:34  Шаблоны/
+bonew@GB-virtual-machine:~$ cd 'Рабочий стол'/
+bonew@GB-virtual-machine:~/Рабочий стол$ ll
+итого 24
+drwxr-xr-x  6 bonew bonew 4096 апр 13 22:57  ./
+drwxr-x--- 22 bonew bonew 4096 апр 13 22:46  ../
+drwxrwxr-x  3 bonew bonew 4096 апр  7 15:58 'April 2023 interim assessment #1'/
+drwxrwxr-x  3 bonew bonew 4096 апр 11 23:15 'April 2023 interim assessment #2'/
+drwxrwxr-x  3 bonew bonew 4096 мар  7 01:12 'GB - JAVA'/
+drwxrwxr-x  3 bonew bonew 4096 янв 23 20:52  Python-GB/
+bonew@GB-virtual-machine:~/Рабочий стол$ cd 'April 2023 interim assessment #2'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mkd
+mkdir    mkdosfs
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mkdir "Игрушки для школьников"
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mkdir "Игрушки для дошколят"
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ ll
+итого 24
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ./
+drwxr-xr-x 6 bonew bonew 4096 апр 13 22:57  ../
+drwxrwxr-x 4 bonew bonew 4096 апр 11 23:10  Java_ToysDraw/
+-rw-rw-r-- 1 bonew bonew   14 апр 11 23:15  YourPrize.txt
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:01 'Игрушки для дошколят'/
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:01 'Игрушки для школьников'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd 'Игрушки для школьников'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch {1..3}.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:04 ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01 ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:04 1.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:04 2.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:04 3.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ rm 1.txt 2.txt 3.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:04 ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01 ../
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch {"Роботы" "Констр
+уктор" "Настольные игры"}.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:05  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:05  Конструктор
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:05 'Настольные игры}.txt'
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:05  {Роботы
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ rm Конструктор 'Настольные игры}.txt' {Роботы
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:05 ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01 ../
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch {Роботы; Конструк
+тор; Настольные игры}.txt
+Конструктор: команда не найдена
+Настольные: команда не найдена
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch {'Роботы' 'Констр
+уктор' 'Настольные игры'}.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:06  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06  Конструктор
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06 'Настольные игры}.txt'
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06  {Роботы
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ mc
+
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch Роботы.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch Конструктор.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch Настольные игры.t
+xt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ дд
+дд: команда не найдена
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07 ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01 ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07 игры.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07 Конструктор.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07 Настольные
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06 Роботы.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ rm игры.txt Настольные
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ touch "Настольные игры.txt"
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07  Конструктор.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07 'Настольные игры.txt'
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06  Роботы.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ mv 'Настольные игры.txt
+' {Настольные игры.txt}
+mv: указанная цель 'игры.txt}' не является каталогом
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ mv 'Настольные игры.txt' Настольные игры.txt
+mv: указанная цель 'игры.txt' не является каталогом
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ mc
+
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07  Конструктор.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:07 'Настольные игры.txt'
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:06  Роботы.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для школьников$ cd ..
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd 'Игрушки
+Java_ToysDraw/          Игрушки для дошколят/   Игрушки для школьников/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd 'Игрушки для дошколят'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ touch 'Мягкие игрушки'.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:10  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:10 'Мягкие игрушки.txt'
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ touch Куклы.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ touch Машинки.txt
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ ll
+итого 8
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:11  ./
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ../
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:11  Куклы.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:11  Машинки.txt
+-rw-rw-r-- 1 bonew bonew    0 апр 13 23:10 'Мягкие игрушки.txt'
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки для дошколят$ cd ..
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ ll
+итого 24
+drwxrwxr-x 5 bonew bonew 4096 апр 13 23:01  ./
+drwxr-xr-x 6 bonew bonew 4096 апр 13 22:57  ../
+drwxrwxr-x 4 bonew bonew 4096 апр 11 23:10  Java_ToysDraw/
+-rw-rw-r-- 1 bonew bonew   14 апр 11 23:15  YourPrize.txt
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:11 'Игрушки для дошколят'/
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07 'Игрушки для школьников'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv -n "Игрушки для дошколят"/ 'Игрушки для школьников'/ 'Игрушки'
+mv: указанная цель 'Игрушки' не является каталогом
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv -n "Игрушки для дошколят"/ 'Игрушки для школьников'/ Игрушки
+mv: указанная цель 'Игрушки' не является каталогом
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv -n "Игрушки для дошколят"/ 'Игрушки для школьников'/ Игрушки^C
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mkd
+mkdir    mkdosfs
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mkdir Игрушки
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv -n "Игрушки для дошколят"/ 'Игрушки для школьников'/ Игрушки
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ ll
+итого 20
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15 ./
+drwxr-xr-x 6 bonew bonew 4096 апр 13 22:57 ../
+drwxrwxr-x 4 bonew bonew 4096 апр 11 23:10 Java_ToysDraw/
+-rw-rw-r-- 1 bonew bonew   14 апр 11 23:15 YourPrize.txt
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15 Игрушки/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd Игрушки/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки$ ls -al
+итого 16
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15  .
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15  ..
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:11 'Игрушки для дошколят'
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07 'Игрушки для школьников'
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Игрушки$ cd ..
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv Игрушки/ 'Имя Игрушки'
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ ll
+итого 20
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15  ./
+drwxr-xr-x 6 bonew bonew 4096 апр 13 22:57  ../
+drwxrwxr-x 4 bonew bonew 4096 апр 11 23:10  Java_ToysDraw/
+-rw-rw-r-- 1 bonew bonew   14 апр 11 23:15  YourPrize.txt
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15 'Имя Игрушки'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd 'Имя Игрушки'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ mv 'Имя Игрушки'/ 'Игрушки'
+mv: не удалось выполнить stat для 'Имя Игрушки/': Нет такого файла или каталога
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ mv 'Имя Игрушки'/ Игрушки
+mv: не удалось выполнить stat для 'Имя Игрушки/': Нет такого файла или каталога
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ mv 'Имя Игрушки' Игрушки
+mv: не удалось выполнить stat для 'Имя Игрушки': Нет такого файла или каталога
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ mv 'Имя Игрушки'/ Игрушки/
+mv: не удалось выполнить stat для 'Имя Игрушки/': Нет такого файла или каталога
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ mv 'Имя Игрушки'/ Игрушки/^C
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ ll
+итого 16
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15  ./
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15  ../
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:11 'Игрушки для дошколят'/
+drwxrwxr-x 2 bonew bonew 4096 апр 13 23:07 'Игрушки для школьников'/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2/Имя Игрушки$ cd ..
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ mv 'Имя Игрушки'/ Игрушки/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ ll
+итого 20
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:17 ./
+drwxr-xr-x 6 bonew bonew 4096 апр 13 22:57 ../
+drwxrwxr-x 4 bonew bonew 4096 апр 11 23:10 Java_ToysDraw/
+-rw-rw-r-- 1 bonew bonew   14 апр 11 23:15 YourPrize.txt
+drwxrwxr-x 4 bonew bonew 4096 апр 13 23:15 Игрушки/
+bonew@GB-virtual-machine:~/Рабочий стол/April 2023 interim assessment #2$ cd /
+bonew@GB-virtual-machine:/$ sudo snap install vlc
+vlc 3.0.18 от VideoLAN✓ установлен
+bonew@GB-virtual-machine:/$ sudo snap remove vlc
+vlc удалено
+bonew@GB-virtual-machine:/$ sudo apt install rsy
+rsync                  rsyslog-doc            rsyslog-hiredis        rsyslog-mysql          rsyslog-snmp
+rsyncrypto             rsyslog-elasticsearch  rsyslog-kafka          rsyslog-openssl
+rsyslog                rsyslog-gnutls         rsyslog-kubernetes     rsyslog-pgsql
+rsyslog-czmq           rsyslog-gssapi         rsyslog-mongodb        rsyslog-relp
+bonew@GB-virtual-machine:/$ sudo apt install rsync
+Чтение списков пакетов… Готово
+Построение дерева зависимостей… Готово
+Чтение информации о состоянии… Готово
+Уже установлен пакет rsync самой новой версии (3.2.7-0ubuntu0.22.10.1).
+rsync помечен как установленный вручную.
+Следующие пакеты устанавливались автоматически и больше не требуются:
+  libcgi-fast-perl libcgi-pm-perl libevent-core-2.1-7a libevent-pthreads-2.1-7 libfcgi-bin libfcgi-perl libfcgi0ldbl
+  libhtml-template-perl libprotobuf-lite23
+Для их удаления используйте «sudo apt autoremove».
+Обновлено 0 пакетов, установлено 0 новых пакетов, для удаления отмечено 0 пакетов, и 17 пакетов не обновлено.
+bonew@GB-virtual-machine:/$ crontab -e
+no crontab for bonew - using an empty one
+crontab: installing new crontab
+bonew@GB-virtual-machine:/$
+
+
+***********************crontab -e ***********************************************************************
+
+*/3 * * * * rsync -av --delete ~/'Рабочий стол'/ ~/'Рабочий стол bak'/
